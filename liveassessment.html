@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <style>
-        table,tr,th{
+        table,tr,th,td{
             border: 1px solid;
         }
     </style>
@@ -68,11 +68,11 @@
     <h1>Table</h1>
     <hr>
     <table style="border: 1px solid;">
-        <tr>
-            <td style="border: 1px solid;">Stud.ID</td>
-            <td style="border: 1px solid;">Std Name</td>
-            <td style="border: 1px solid;">Std Mobile No</td>
-            <td style="border: 1px solid;" height="30px"> Empty None</td>
+        <tr style="border: 1px solid;">
+            <td><b>Stud.ID</b></td>
+            <td><b>Std Name</b></td>
+            <td><b>Std Mobile No</b></td>
+            <td rowspan="5"><b>Empty None</b></td>
         </tr>
         <tr>
             <th>10101</th>
@@ -81,11 +81,12 @@
         </tr>
         <tr>
             <th>10201</th>
-            <th>Rusta</th>
+            <th rowspan="2">Rusta</th>
             <th>907564535</th>
         </tr>
         <tr>
             <th>10301</th>
+            
             <th>907564536</th>
         </tr>
         <tr>
